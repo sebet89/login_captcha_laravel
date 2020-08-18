@@ -22,4 +22,4 @@
 
 7. Acesse o sistema
 
-   http://localhost:8000/ (provavelmente)
+   http://localhost:8000/
