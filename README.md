@@ -7,11 +7,15 @@
 2. Entre na pasta login_captcha_laravel e baixe os pacotes do composer
 
    composer update
+   
+3. Criando tabelas no banco (precisa estar com Apache ligado)
 
-3. Rode o servidor
+    php artisan migrate:fresh --seed
+
+4. Rode o servidor
 
    php artisan serve
 
-4. Acesse o sistema
+5. Acesse o sistema
 
    http://localhost:8000/ (provavelmente)
