@@ -8,14 +8,18 @@
 
    composer update
    
-3. Criando tabelas no banco (precisa estar com Apache ligado)
+3. Configure o seu banco no arquivo .env
+
+4. Crie o banco com nome do "DB_DATABASE" que esta no .env
+   
+5. Criando tabelas no banco
 
     php artisan migrate:fresh --seed
 
-4. Rode o servidor
+6. Rode o servidor
 
    php artisan serve
 
-5. Acesse o sistema
+7. Acesse o sistema
 
    http://localhost:8000/ (provavelmente)
